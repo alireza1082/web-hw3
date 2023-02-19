@@ -1,0 +1,517 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<head>
+  <title>پنل کاربری</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"/>
+  <link rel="stylesheet" href="../assets/css/font-awesome.css"/>
+  <link rel="stylesheet" href="../assets/css/lineicons.css"/>
+  <link rel="stylesheet" href="../assets/css/weather-icons.css"/>
+  <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
+  <link rel="stylesheet" href="../assets/css/styles.css"/>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-theme logedin-nav nav_dark" id="main-nav">
+  <div class="container">
+    <div class="navbar-inner nav">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" data-target="#navbar-main" data-toggle="collapse" type="button" area-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../homepage/index.html">
+          <img src="../assets/img/logo.png" alt="تصویر متن جایگزین" title="عنوان تصویر">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="nav navbar-nav navbar-nav-dark">
+          <li>
+            <a href="#" role="button">درباره‌ما</a>
+          </li>
+          <li>
+            <a href="#" role="button">تماس‌با‌ما</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active navbar-nav-item-user dropdown">
+            <a class="dropdown-toggle" href="account.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-user-circle-o navbar-nav-item-user-icon _c-ow"></i>حساب من
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="account.html">اطلاعات شخصی</a>
+              </li>
+              <li>
+                <a href="account-cards.html">بلیط‌های خریداری شده</a>
+              </li>
+              <li>
+                <a href="account-travelers.html">مسافران</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="theme-page-section theme-page-section-gray theme-page-section-lg _bg-d">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2-5 ">
+        <div class="theme-account-sidebar">
+          <div class="theme-account-avatar">
+            <img class="theme-account-avatar-img" src="../assets/img/accountpic.jfif" alt="تصویر متن جایگزین" title="عنوان تصویر">
+            <p class="theme-account-avatar-name _c-w">حسین حسینی</p>
+          </div>
+          <nav class="theme-account-nav">
+            <ul class="theme-account-nav-list-dark">
+              <li>
+                <a href="account.html">
+                  <i class="fa fa-cog"></i>اطلاعات شخصی
+                </a>
+              </li>
+              <li class="active">
+                <a href="account-notifications.html">
+                  <i class="fa fa-bell"></i>بلیط‌های خریداری شده
+                </a>
+              </li>
+              <li>
+                <a href="account-travelers.html">
+                  <i class="fa fa-user-circle-o"></i>مسافران
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="col-md-9-5">
+        <h1 class="theme-account-page-title _c-w">بلیط‌های خریداری شده</h1>
+        <div class="theme-page-section">
+          <div class="container _bg-d">
+              <div class="col-md-7 _bg-d">
+                <div class="theme-search-results-sign-in _mob-h bg-grad">
+                  <i class="theme-search-results-sign-in-icon fa fa-info"></i>
+                  <h5 class="theme-search-results-sign-in-title">بلیط‌ها براساس
+                  <b>نزدیک‌ترین تاریخ</b>
+                  مرتب شده‌اند.
+                  </h5>
+                </div>
+                <div class="theme-search-results">
+                  <div class="theme-search-results-item _mb-10 theme-search-results-item-rounded theme-search-results-item-">
+                    <div class="theme-search-results-item-preview">
+                      <a class="theme-search-results-item-mask-link" href="#searchResultsItem-6" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="searchResultsItem-6"></a>
+                      <div class="row" data-gutter="20">
+                        <div class="col-md-10 ">
+                          <div class="theme-search-results-item-flight-sections">
+                            <div class="theme-search-results-item-flight-section">
+                              <div class="row row-no-gutter row-eq-height">
+                                <div class="col-md-2 ">
+                                  <div class="theme-search-results-item-flight-section-airline-logo-wrap">
+                                    <img class="theme-search-results-item-flight-section-airline-logo" src="../assets/img/Mahan.jpg" alt="تصویر متن جایگزین" title="عنوان تصویر">
+                                  </div>
+                                </div>
+                                <div class="col-md-10 ">
+                                  <div class="theme-search-results-item-flight-section-item">
+                                    <div class="row">
+                                      <div class="col-md-3 ">
+                                        <div class="theme-search-results-item-flight-section-meta">
+                                          <p class="theme-search-results-item-flight-section-meta-time">8:00
+                                          </p>
+                                          <p class="theme-search-results-item-flight-section-meta-city">تهران</p>
+                                          <p class="theme-search-results-item-flight-section-meta-date">25 آذر</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6 ">
+                                        <div class="theme-search-results-item-flight-section-path">
+                                          <div class="theme-search-results-item-flight-section-path-fly-time">
+                                            <p>2:10</p>
+                                          </div>
+                                          <div class="theme-search-results-item-flight-section-path-line"></div>
+                                          <div class="theme-search-results-item-flight-section-path-line-start">
+                                            <i class="fa fa-plane theme-search-results-item-flight-section-path-icon"></i>
+                                            <div class="theme-search-results-item-flight-section-path-line-dot"></div>
+                                            <div class="theme-search-results-item-flight-section-path-line-title">DXB</div>
+                                          </div>
+                                          <div class="theme-search-results-item-flight-section-path-line-end">
+                                            <i class="fa fa-plane theme-search-results-item-flight-section-path-icon"></i>
+                                            <div class="theme-search-results-item-flight-section-path-line-dot"></div>
+                                            <div class="theme-search-results-item-flight-section-path-line-title">IKA</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 ">
+                                        <div class="theme-search-results-item-flight-section-meta">
+                                          <p class="theme-search-results-item-flight-section-meta-time">10:40
+                                          </p>
+                                          <p class="theme-search-results-item-flight-section-meta-city">دبی</p>
+                                          <p class="theme-search-results-item-flight-section-meta-date">25 آذر</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h5 class="theme-search-results-item-flight-section-airline-title">هواپیمایی ماهان</h5>
+                            </div>
+                            <div class="theme-search-results-item-flight-section">
+                              <div class="row row-no-gutter row-eq-height">
+                                <div class="col-md-2 ">
+                                  <div class="theme-search-results-item-flight-section-airline-logo-wrap">
+                                    <img class="theme-search-results-item-flight-section-airline-logo" src="../assets/img/Mahan.jpg" alt="تصویر متن جایگزین" title="عنوان تصویر">
+                                  </div>
+                                </div>
+                                <div class="col-md-10 ">
+                                  <div class="theme-search-results-item-flight-section-item">
+                                    <div class="row">
+                                      <div class="col-md-3 ">
+                                        <div class="theme-search-results-item-flight-section-meta">
+                                          <p class="theme-search-results-item-flight-section-meta-time">12:15
+                                          </p>
+                                          <p class="theme-search-results-item-flight-section-meta-city">دبی</p>
+                                          <p class="theme-search-results-item-flight-section-meta-date">30 آذر</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6 ">
+                                        <div class="theme-search-results-item-flight-section-path">
+                                          <div class="theme-search-results-item-flight-section-path-fly-time">
+                                            <p>2:10</p>
+                                          </div>
+                                          <div class="theme-search-results-item-flight-section-path-line"></div>
+                                          <div class="theme-search-results-item-flight-section-path-line-start">
+                                            <i class="fa fa-plane theme-search-results-item-flight-section-path-icon"></i>
+                                            <div class="theme-search-results-item-flight-section-path-line-dot"></div>
+                                            <div class="theme-search-results-item-flight-section-path-line-title">IKA</div>
+                                          </div>
+                                          <div class="theme-search-results-item-flight-section-path-line-end">
+                                            <i class="fa fa-plane theme-search-results-item-flight-section-path-icon"></i>
+                                            <div class="theme-search-results-item-flight-section-path-line-dot"></div>
+                                            <div class="theme-search-results-item-flight-section-path-line-title">DXB</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 ">
+                                        <div class="theme-search-results-item-flight-section-meta">
+                                          <p class="theme-search-results-item-flight-section-meta-time">13:55
+                                          </p>
+                                          <p class="theme-search-results-item-flight-section-meta-city">تهران</p>
+                                          <p class="theme-search-results-item-flight-section-meta-date">30 آذر</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h5 class="theme-search-results-item-flight-section-airline-title">هواپیمایی ماهان</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 ">
+                          <div class="theme-search-results-item-book">
+                            <div class="theme-search-results-item-price">
+                              <p class="theme-search-results-item-price-tag">6,200,000</p>
+                              <p class="theme-search-results-item-price-sign">تومان</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="theme-search-results-item-book">
+                          <div class="theme-search-results-item-price">
+                            <a class="theme-search-results-item-more-info">اطلاعات بیشتر سفر من</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collapse theme-search-results-item-collapse" id="searchResultsItem-6">
+                      <div class="theme-search-results-item-extend">
+                        <a class="theme-search-results-item-extend-close" href="#searchResultsItem-6" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="searchResultsItem-6">✕</a>
+                        <div class="theme-search-results-item-extend-inner">
+                          <div class="theme-search-results-item-flight-detail-items">
+                            <div class="theme-search-results-item-flight-details">
+                              <div class="row">
+                                <div class="col-md-3 ">
+                                  <div class="theme-search-results-item-flight-details-info">
+                                    <h5 class="theme-search-results-item-flight-details-info-title">تاریخ خرید بلیط:</h5>
+                                    <p class="theme-search-results-item-flight-details-info-date">شنبه 19 آذر</p>
+                                    <p class="theme-search-results-item-flight-details-info-cities">ساعت 23:16</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="theme-search-results-item-flight-details">
+                              <div class="row">
+                                <div class="col-md-3 ">
+                                  <div class="theme-search-results-item-flight-details-info">
+                                    <h5 class="theme-search-results-item-flight-details-info-title">مسافران:</h5>
+                                  </div>
+                                </div>
+                                <div class="col-md-9 ">
+                                  <div class="theme-search-results-item-flight-details-schedule">
+                                    <ul class="theme-search-results-item-flight-details-schedule-list">
+                                      <li>
+                                        <i class="fa fa-user theme-search-results-item-flight-details-schedule-icon"></i>
+                                        <div class="theme-search-results-item-flight-details-schedule-time">
+                                          <br>
+                                              <span class="theme-search-results-item-flight-details-schedule-time-item">حسین حسینی
+                                                 <span></span>
+                                              </span>
+                                        </div>
+                                        <div class="theme-search-results-item-flight-details-schedule-destination">
+                                          <div class="theme-search-results-item-flight-details-schedule-destination-item">
+                                            <p class="theme-search-results-item-flight-details-schedule-destination-title">
+                                               شماره پاسپورت: RE123456 
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                    <ul class="theme-search-results-item-flight-details-schedule-list">
+                                      <li>
+                                        <i class="fa fa-user theme-search-results-item-flight-details-schedule-icon"></i>
+                                        <div class="theme-search-results-item-flight-details-schedule-time">
+                                          <br>
+                                              <span class="theme-search-results-item-flight-details-schedule-time-item">علی علایی
+                                                 <span></span>
+                                              </span>
+                                        </div>
+                                        <div class="theme-search-results-item-flight-details-schedule-destination">
+                                          <div class="theme-search-results-item-flight-details-schedule-destination-item">
+                                            <p class="theme-search-results-item-flight-details-schedule-destination-title">
+                                               شماره پاسپورت: RE123456 
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="theme-search-results-item _mb-10 _b-n theme-search-results-item-rounded theme-search-results-item-">
+                    <div class="theme-search-results-item-preview">
+                      <a class="theme-search-results-item-mask-link" href="#searchResultsItem-1" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="searchResultsItem-1"></a>
+                      <div class="row" data-gutter="20">
+                        <div class="col-md-10 ">
+                          <div class="theme-search-results-item-flight-sections">
+                            <div class="theme-search-results-item-flight-section">
+                              <div class="row row-no-gutter row-eq-height">
+                                <div class="col-md-2 ">
+                                  <div class="theme-search-results-item-flight-section-airline-logo-wrap">
+                                    <img class="theme-search-results-item-flight-section-airline-logo" src="../assets/img/iranair.png" alt="تصویر متن جایگزین" title="عنوان تصویر">
+                                  </div>
+                                </div>
+                                <div class="col-md-10 ">
+                                  <div class="theme-search-results-item-flight-section-item">
+                                    <div class="row">
+                                      <div class="col-md-3 ">
+                                        <div class="theme-search-results-item-flight-section-meta">
+                                          <p class="theme-search-results-item-flight-section-meta-time">7:15
+                                          </p>
+                                          <p class="theme-search-results-item-flight-section-meta-city">تهران</p>
+                                          <p class="theme-search-results-item-flight-section-meta-date">14 دی</p>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6 ">
+                                        <div class="theme-search-results-item-flight-section-path">
+                                          <div class="theme-search-results-item-flight-section-path-fly-time">
+                                            <p>5 ساعت و 45 دقیقه</p>
+                                          </div>
+                                          <div class="theme-search-results-item-flight-section-path-line"></div>
+                                          <div class="theme-search-results-item-flight-section-path-line-start">
+                                            <i class="fa fa-plane theme-search-results-item-flight-section-path-icon"></i>
+                                            <div class="theme-search-results-item-flight-section-path-line-dot"></div>
+                                            <div class="theme-search-results-item-flight-section-path-line-title">FRA</div>
+                                          </div>
+                                          <div class="theme-search-results-item-flight-section-path-line-end">
+                                            <i class="fa fa-plane theme-search-results-item-flight-section-path-icon"></i>
+                                            <div class="theme-search-results-item-flight-section-path-line-dot"></div>
+                                            <div class="theme-search-results-item-flight-section-path-line-title">IKA</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 ">
+                                        <div class="theme-search-results-item-flight-section-meta">
+                                          <p class="theme-search-results-item-flight-section-meta-time">10:30
+                                          </p>
+                                          <p class="theme-search-results-item-flight-section-meta-city">فرانکفورت</p>
+                                          <p class="theme-search-results-item-flight-section-meta-date">14 دی</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h5 class="theme-search-results-item-flight-section-airline-title">هواپیمایی ایران‌ایر</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 ">
+                          <div class="theme-search-results-item-book">
+                            <div class="theme-search-results-item-price">
+                              <p class="theme-search-results-item-price-tag">11,217,500</p>
+                              <p class="theme-search-results-item-price-sign">تومان</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="theme-search-results-item-book">
+                          <div class="theme-search-results-item-price">
+                            <a class="theme-search-results-item-more-info">اطلاعات بیشتر سفر من</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collapse theme-search-results-item-collapse" id="searchResultsItem-1">
+                      <div class="theme-search-results-item-extend">
+                        <a class="theme-search-results-item-extend-close" href="#searchResultsItem-1" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="searchResultsItem-1">✕</a>
+                        <div class="theme-search-results-item-extend-inner">
+                          <div class="theme-search-results-item-flight-detail-items">
+                            <div class="theme-search-results-item-flight-details">
+                              <div class="row">
+                                <div class="col-md-3 ">
+                                  <div class="theme-search-results-item-flight-details-info">
+                                    <h5 class="theme-search-results-item-flight-details-info-title">تاریخ خرید بلیط:</h5>
+                                    <p class="theme-search-results-item-flight-details-info-date">شنبه 19 آذر</p>
+                                    <p class="theme-search-results-item-flight-details-info-cities">ساعت 23:16</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="theme-search-results-item-flight-details">
+                              <div class="row">
+                                <div class="col-md-3 ">
+                                  <div class="theme-search-results-item-flight-details-info">
+                                    <h5 class="theme-search-results-item-flight-details-info-title">مسافران:</h5>
+                                  </div>
+                                </div>
+                                <div class="col-md-9 ">
+                                  <div class="theme-search-results-item-flight-details-schedule">
+                                    <ul class="theme-search-results-item-flight-details-schedule-list">
+                                      <li>
+                                        <i class="fa fa-user theme-search-results-item-flight-details-schedule-icon"></i>
+                                        <div class="theme-search-results-item-flight-details-schedule-time">
+                                          <br>
+                                              <span class="theme-search-results-item-flight-details-schedule-time-item">حسین حسینی
+                                                 <span></span>
+                                              </span>
+                                        </div>
+                                        <div class="theme-search-results-item-flight-details-schedule-destination">
+                                          <div class="theme-search-results-item-flight-details-schedule-destination-item">
+                                            <p class="theme-search-results-item-flight-details-schedule-destination-title">
+                                               شماره پاسپورت: RE123456 
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="theme-footer-dark" id="mainFooter">
+  <div class="container _ph-mob-0">
+    <div class="row row-eq-height row-mob-full" data-gutter="60">
+      <div class="col-md-3">
+        <div class="theme-footer-section theme-footer-">
+          <a class="theme-footer-brand _mb-mob-30" href="#">
+            <img src="../assets/img/footer-logo.png" alt="تصویر متن جایگزین" title="عنوان تصویر">
+          </a>
+          <div class="theme-footer-brand-text">
+            <p>این پروژه برای تمرین نخست درس برنامه نویسی وب دانشگاه صنعتی شریف است.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="theme-footer-section theme-footer-">
+              <h5 class="theme-footer-section-title _c-ow">اعضای تیم</h5>
+              <ul class="theme-footer-section-list">
+                <li>
+                  <a class="_c-w" href="#">آنیتا علیخانی</a>
+                </li>
+                <li>
+                  <a class="_c-w" href="#">علیرضا رحمانی</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="theme-footer-section theme-footer-">
+              <h5 class="theme-footer-section-title _c-ow">شماره دانشجویی</h5>
+              <ul class="theme-footer-section-list">
+                <li>
+                  <a class="_c-w" href="#">99107635</a>
+                </li>
+                <li>
+                  <a class="_c-w" href="#">96105791</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="theme-footer-section theme-footer-section-subscribe bg-grad _mt-mob-30">
+          <div class="theme-footer-section-subscribe-content">
+            <h5 class="theme-footer-section-title">دریافت اخبار سامانه</h5>
+            <p class="text-muted">از تخفیف‌ها و قرعه‌کشی‌ها زود تر از دیگران مطلع شوید.</p>
+            <form>
+              <div class="form-group">
+                <input class="form-control theme-footer-subscribe-form-control" type="email" placeholder="ایمیل خود را اینجا تایپ کنید">
+              </div>
+              <button class="btn btn-primary-invert btn-shadow text-upcase theme-footer-subscribe-btn" type="submit">تایید</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/moment.js"></script>
+<script src="../assets/js/bootstrap.js"></script>
+<script src="../assets/js/owl-carousel.js"></script>
+<script src="../assets/js/blur-area.js"></script>
+<script src="../assets/js/icheck.js"></script>
+<script src="../assets/js/magnific-popup.js"></script>
+<script src="../assets/js/ion-range-slider.js"></script>
+<script src="../assets/js/sticky-kit.js"></script>
+<script src="../assets/js/smooth-scroll.js"></script>
+<script src="../assets/js/bs-datepicker.js"></script>
+<script src="../assets/js/quantity-selector.js"></script>
+<script src="../assets/js/window-scroll-action.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/autocomplete.js"></script>
+
+</body>
+</html>

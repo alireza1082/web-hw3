@@ -1,0 +1,572 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<!-- index-city-1.html  07:35:34  -->
+<head>
+  <title>صفحه اصلی</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"/>
+  <link rel="stylesheet" href="../assets/css/font-awesome.css"/>
+  <link rel="stylesheet" href="../assets/css/lineicons.css"/>
+  <link rel="stylesheet" href="../assets/css/weather-icons.css"/>
+  <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
+  <link rel="stylesheet" href="../assets/css/styles.css"/>
+  </head>
+
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-default navbar-inverse navbar-theme navbar-theme-abs navbar-theme-transparent navbar-theme-border" id="main-nav">
+  <div class="container">
+    <div class="navbar-inner nav">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" data-target="#navbar-main" data-toggle="collapse" type="button" area-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../homepage/index.html">
+          <img src="../assets/img/logowhite.png" alt="تصویر متن جایگزین" title="عنوان تصویر">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#" role="button">درباره‌ما</a>
+          </li>
+          <li>
+            <a href="#" role="button">تماس‌با‌ما</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="navbar-nav-item-user">
+            <a href="../login%20register/login.html" role="button">
+              <i class="fa fa-user-circle-o navbar-nav-item-user-icon"></i>ورود
+            </a>
+          </li>
+          <li>
+            <a href="../login%20register/register.html" role="button">ثبت‌نام</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- hero area -->
+<div class="theme-hero-area theme-hero-area-primary">
+  <div class="theme-hero-area-bg-wrap">
+    <div class="theme-hero-area-bg ws-action" style="background-image:url(../assets/img/air.jpg);" data-parallax="true"></div>
+    <div class="theme-hero-area-mask theme-hero-area-mask-black"></div>
+  </div>
+  <div class="theme-hero-area-body _pv-100 _pv-mob-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="_pt-50">
+            <div class="theme-search-area-tabs">
+              <div class="theme-search-area-tabs-header _c-w _ta-c">
+                <h1 class="theme-search-area-tabs-title">سامانه رزرو و خرید بلیط<span class="_c-pi"> هواپیما</span></h1>
+                <p class="theme-search-area-tabs-subtitle">دانشگاه صنعتی شریف</p>
+              </div>
+
+              <!-- search area -->
+              <div class="tabbable">
+
+                <ul class="nav _tt-uc nav-tabs nav-line nav-white nav-lg nav-active-primary-inverse nav-mob-inline" role="tablist">
+                  <li class="active" role="presentation">
+                    <a class="_op-1" aria-controls="SearchAreaTabs-1" role="tab" data-toggle="tab" href="#SearchAreaTabs-1">یک‌طرفه</a>
+                  </li>
+                  <li role="presentation">
+                    <a class="_op-1" aria-controls="SearchAreaTabs-2" role="tab" data-toggle="tab" href="#SearchAreaTabs-2">رفت‌و‌برگشت</a>
+                  </li>
+                </ul>
+
+                <div class="tab-content _pt-20">
+                  
+                  <!-- tab_1 -->
+                  <div class="tab-pane active" id="SearchAreaTabs-1" role="tab-panel">
+                    <div class="theme-search-area theme-search-area-stacked">
+                      <div class="theme-search-area-form">
+                        <div class="row" data-gutter="none">
+                          <div class="col-md-11 ">
+                            <div class="row" data-gutter="none">
+                              <div class="col-md-3 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <form autocomplete="off" action="">
+                                      <i class="theme-search-area-section-icon lin lin-location-pin"></i>
+                                      <input class="theme-search-area-section-input" id="myInput1" type="text" placeholder="مبدا">
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <form autocomplete="off" action="">
+                                      <i class="theme-search-area-section-icon lin lin-location-pin"></i>
+                                      <input class="theme-search-area-section-input" id="myInput2" type="text" placeholder="مقصد">
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <i class="theme-search-area-section-icon lin lin-calendar"></i>
+                                    <input class="theme-search-area-section-input datePickerStart _mob-h" value="تاریخ رفت" id="datepicker-Depart" type="text" placeholder="تاریخ رفت"  data-jdp>
+                                    <input class="theme-search-area-section-input _desk-h mobile-picker" value="تاریخ"  type="text"  data-jdp>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-2 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr quantity-selector" data-increment="مسافر">
+                                  <div class="theme-search-area-section-inner">
+                                    <i class="theme-search-area-section-icon lin lin-people"></i>
+                                    <input class="theme-search-area-section-input" value="1 مسافر" type="text">
+                                    <div class="quantity-selector-box" id="FlySearchPassengers">
+                                      <div class="quantity-selector-inner">
+                                        <p class="quantity-selector-title">مسافر</p>
+                                        <ul class="quantity-selector-controls">
+                                          <li class="quantity-selector-decrement">
+                                            <a href="#">-</a>
+                                          </li>
+                                          <li class="quantity-selector-current">1</li>
+                                          <li class="quantity-selector-increment">
+                                            <a href="#">+</a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-1 ">
+                            <button class="theme-search-area-submit _mt-0 theme-search-area-submit-no-border">
+                              <i class="theme-search-area-submit-icon fa fa-angle-left"></i>
+                              <span class="_desk-h">جستجو</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- tab_2 -->
+                  <div class="tab-pane" id="SearchAreaTabs-2" role="tab-panel">
+                    <div class="theme-search-area theme-search-area-stacked">
+                      <div class="theme-search-area-form">
+                        <div class="row" data-gutter="none">
+                          <div class="col-md-11 ">
+                            <div class="row" data-gutter="none">
+                              <div class="col-md-3 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <form autocomplete="off" action="">
+                                      <i class="theme-search-area-section-icon lin lin-location-pin"></i>
+                                      <input class="theme-search-area-section-input" id="myInput3" type="text" placeholder="مبدا">
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <form autocomplete="off" action="">
+                                      <i class="theme-search-area-section-icon lin lin-location-pin"></i>
+                                      <input class="theme-search-area-section-input" id="myInput4" type="text" placeholder="مقصد">
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-2 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <i class="theme-search-area-section-icon lin lin-calendar"></i>
+                                    <input class="theme-search-area-section-input datePickerStart _mob-h" value="تاریخ رفت" id="datepicker-Depart" type="text" placeholder="تاریخ رفت"  data-jdp>
+                                    <input class="theme-search-area-section-input _desk-h mobile-picker" value="تاریخ"  type="text"  data-jdp>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-2 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr">
+                                  <div class="theme-search-area-section-inner">
+                                    <i class="theme-search-area-section-icon lin lin-calendar"></i>
+                                    <input class="theme-search-area-section-input datePickerStart _mob-h" value="تاریخ برگشت" id="datepicker-Depart" type="text" placeholder="تاریخ رفت"  data-jdp>
+                                    <input class="theme-search-area-section-input _desk-h mobile-picker" value="تاریخ"  type="text"  data-jdp>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-2 ">
+                                <div class="theme-search-area-section theme-search-area-section-bg-dark theme-search-area-section-no-border theme-search-area-section-mr quantity-selector" data-increment="مسافر">
+                                  <div class="theme-search-area-section-inner">
+                                    <i class="theme-search-area-section-icon lin lin-people"></i>
+                                    <input class="theme-search-area-section-input" value="1 مسافر" type="text">
+                                    <div class="quantity-selector-box" id="FlySearchPassengers">
+                                      <div class="quantity-selector-inner">
+                                        <p class="quantity-selector-title">مسافر</p>
+                                        <ul class="quantity-selector-controls">
+                                          <li class="quantity-selector-decrement">
+                                            <a href="#">-</a>
+                                          </li>
+                                          <li class="quantity-selector-current">1</li>
+                                          <li class="quantity-selector-increment">
+                                            <a href="#">+</a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-1 ">
+                            <button class="theme-search-area-submit _mt-0 theme-search-area-submit-no-border">
+                              <i class="theme-search-area-submit-icon fa fa-angle-left"></i>
+                              <span class="_desk-h">جستجو</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- favourite destinations -->
+<div class="theme-page-section theme-page-section-xxl theme-page-section-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="theme-page-section-header">
+          <h5 class="theme-page-section-title _c-ow">محبوب‌ترین مقصدها</h5>
+        </div>
+        <div class="theme-inline-slider row" data-gutter="10">
+          <div class="owl-carousel" data-items="4" data-loop="true" data-nav="true">
+            <div class="theme-inline-slider-item">
+              <div class="banner _h-40vh banner-">
+                <div class="banner-bg" style="background-image:url(../assets/img/shiraz.avif);"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-60 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title _fs-sm">شیراز</h5>
+                  <p class="banner-subtitle">ایران</p>
+                </div>
+              </div>
+            </div>
+            <div class="theme-inline-slider-item">
+              <div class="banner _h-40vh banner-">
+                <div class="banner-bg" style="background-image:url(../assets/img/venice.avif);"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-60 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title _fs-sm">ونیز</h5>
+                  <p class="banner-subtitle">ایتالیا</p>
+                </div>
+              </div>
+            </div>
+            <div class="theme-inline-slider-item">
+              <div class="banner _h-40vh banner-">
+                <div class="banner-bg" style="background-image:url(../assets/img/istanbul.avif);"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-60 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title _fs-sm">استانبول</h5>
+                  <p class="banner-subtitle">ترکیه</p>
+                </div>
+              </div>
+            </div>
+            <div class="theme-inline-slider-item">
+              <div class="banner _h-40vh banner-">
+                <div class="banner-bg" style="background-image:url(../assets/img/kish.avif);"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-60 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title _fs-sm">کیش</h5>
+                  <p class="banner-subtitle">ایران</p>
+                </div>
+              </div>
+            </div>
+            <div class="theme-inline-slider-item">
+              <div class="banner _h-40vh banner-">
+                <div class="banner-bg" style="background-image:url(../assets/img/isfahan2.jpg);"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-60 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title _fs-sm">اصفهان</h5>
+                  <p class="banner-subtitle">ایران</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="theme-hero-area">
+  <div class="theme-hero-area-bg-wrap">
+    <div class="theme-hero-area-grad-mask"></div>
+  </div>
+  <div class="theme-hero-area-body">
+    <div class="theme-page-section theme-page-section-xxl">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="theme-hero-text theme-hero-text-white theme-hero-text-center">
+              <div class="theme-hero-text-header">
+                <h2 class="theme-hero-text-title">به باشگاه مشتریان ما بپیوندید</h2>
+                <p class="theme-hero-text-subtitle">با افزایش امتیاز خود از تخفیف های باشگاه مشتریان برخوردار شوید و شانس خود را در برنده شدن سفرهای گوناگون امتحان کنید.</p>
+              </div>
+              <a class="btn _tt-uc _mt-20 btn-primary-invert btn-lg" href="#">اکنون بپیوندید</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- tourist mag-->
+<div class="theme-page-section theme-page-section-xxl theme-page-section-dark">
+  <div class="container">
+    <div class="theme-page-section-header">
+      <h5 class="theme-page-section-title _c-ow">مجله مکان‌های دیدنی</h5>
+    </div>
+    <div class="tabbable">
+      <ul class="nav nav-tabs nav-line nav-center nav-default-dark nav-mob-inline" role="tablist">
+        <li class="active" role="presentation">
+          <a aria-controls="TravelRoute-1" role="tab" data-toggle="tab" href="#TravelRoute-1">
+            <i class="nav-icon _op-06 nav-icon-center fa fa-home _c-pi"></i>داخلی
+          </a>
+        </li>
+        <li role="presentation">
+          <a aria-controls="TravelRoute-2" role="tab" data-toggle="tab" href="#TravelRoute-2">
+            <i class="nav-icon _op-06 nav-icon-center fa fa-globe _c-pi"></i>خارجی
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content _pt-20">
+        <div class="tab-pane active" id="TravelRoute-1" role="tab-panel">
+          <div class="row row-col-gap" data-gutter="10">
+            <div class="col-md-4 ">
+              <div class="banner _h-40vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/shiraz2.jpg);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">حافظیه</h5>
+                  <p class="banner-subtitle">شیراز</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 ">
+              <div class="banner _h-40vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/isfahan.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">سی‌وسه‌پل</h5>
+                  <p class="banner-subtitle">اصفهان</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/tehran.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">برج میلاد</h5>
+                  <p class="banner-subtitle">تهران</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/kish2.jpg);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">کشتی یونانی</h5>
+                  <p class="banner-subtitle">کیش</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/kashan.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">کاشان</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/ahvaz.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">پل هشتم</h5>
+                  <p class="banner-subtitle">اهواز</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="TravelRoute-2" role="tab-panel">
+          <div class="row row-col-gap" data-gutter="10">
+            <div class="col-md-6 ">
+              <div class="banner _h-40vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/istanbul2.jpg);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">قصر دولما‌باغچه</h5>
+                  <p class="banner-subtitle">استانبول</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="banner _h-40vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/venice2.webp);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">گراند کانال</h5>
+                  <p class="banner-subtitle">ونیز</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/barcelona.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">بارسلونا</h5>
+                  <p class="banner-subtitle">اسپانیا</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/paris.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">برج ایفل</h5>
+                  <p class="banner-subtitle">پاریس</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="banner _h-33vh _br-3 banner-animate banner-animate-mask-in">
+                <div class="banner-bg" style="background-image:url(../assets/img/dubai.avif);"></div>
+                <div class="banner-mask"></div>
+                <a class="banner-link" href="#"></a>
+                <div class="banner-caption _pt-120 banner-caption-bottom banner-caption-grad">
+                  <h5 class="banner-title">برج‌العرب</h5>
+                  <p class="banner-subtitle">دوبی</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="theme-footer-dark" id="mainFooter">
+  <div class="container _ph-mob-0">
+    <div class="row row-eq-height row-mob-full" data-gutter="60">
+      <div class="col-md-3">
+        <div class="theme-footer-section theme-footer-">
+          <a class="theme-footer-brand _mb-mob-30" href="#">
+            <img src="../assets/img/footer-logo.png" alt="تصویر متن جایگزین" title="عنوان تصویر">
+          </a>
+          <div class="theme-footer-brand-text">
+            <p>این پروژه برای تمرین نخست درس برنامه نویسی وب دانشگاه صنعتی شریف است.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="theme-footer-section theme-footer-">
+              <h5 class="theme-footer-section-title _c-ow">اعضای تیم</h5>
+              <ul class="theme-footer-section-list">
+                <li>
+                  <a class="_c-w" href="#">آنیتا علیخانی</a>
+                </li>
+                <li>
+                  <a class="_c-w" href="#">علیرضا رحمانی</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="theme-footer-section theme-footer-">
+              <h5 class="theme-footer-section-title _c-ow">شماره دانشجویی</h5>
+              <ul class="theme-footer-section-list">
+                <li>
+                  <a class="_c-w" href="#">99107635</a>
+                </li>
+                <li>
+                  <a class="_c-w" href="#">96105791</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="theme-footer-section theme-footer-section-subscribe bg-grad _mt-mob-30">
+          <div class="theme-footer-section-subscribe-content">
+            <h5 class="theme-footer-section-title">دریافت اخبار سامانه</h5>
+            <p class="text-muted">از تخفیف‌ها و قرعه‌کشی‌ها زود تر از دیگران مطلع شوید.</p>
+            <form>
+              <div class="form-group">
+                <input class="form-control theme-footer-subscribe-form-control" type="email" placeholder="ایمیل خود را اینجا تایپ کنید">
+              </div>
+              <button class="btn btn-primary-invert btn-shadow text-upcase theme-footer-subscribe-btn" type="submit">تایید</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/moment.js"></script>
+<script src="../assets/js/bootstrap.js"></script>
+<script src="../assets/js/owl-carousel.js"></script>
+<script src="../assets/js/blur-area.js"></script>
+<script src="../assets/js/icheck.js"></script>
+<script src="../assets/js/magnific-popup.js"></script>
+<script src="../assets/js/ion-range-slider.js"></script>
+<script src="../assets/js/sticky-kit.js"></script>
+<script src="../assets/js/smooth-scroll.js"></script>
+<script src="../assets/js/bs-datepicker.js"></script>
+<script src="../assets/js/quantity-selector.js"></script>
+<script src="../assets/js/window-scroll-action.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/autocomplete.js"></script>
+
+</body>
+
+</html>
